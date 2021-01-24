@@ -5,7 +5,7 @@ class TutorialController extends TutorialAppController
     {
 
         // Chargement du Model Tutorial
-        // Model/Tutorial.php puis dans la classe Info
+        // NomDuPlugin.Model dans le dossier Model
         $this->loadModel('Tutorial.Info');
 
         //On enregistre dans $datas le contenu de toute la table tutorial
