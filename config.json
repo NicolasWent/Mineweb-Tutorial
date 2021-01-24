@@ -1,0 +1,28 @@
+{
+  "name":"Tutorial",
+  "admin_menus": {
+    "GLOBAL__CUSTOMIZE": {
+      "Utilisateur": {
+        "icon": "user",
+        "route": "/admin/tutorial"
+      }
+    }
+  },
+  "navbar_routes": {
+    "Tutoriel": "/tutorial"
+  },
+  "author":"PHPierre",
+  "version":"1.0.0",
+  "apiID":-1,
+  "useEvents":false,
+  "permissions" : {
+    "available" : [],
+    "default" : {
+      "0" : [],
+      "2" : []
+    }
+  },
+  "requirements" : {
+    "CMS" : "^1.2.0"
+  }
+}
